@@ -1,9 +1,8 @@
-from rom import rom_parse
+import rom
+import rom.rom
 
 
 def MakeRomanInt(a):
     #a = input("Escreva um numero romano: ")
-    a = rom_parse(a)
+    a = rom.rom_parse(a)
     print(a)
-
-MakeRomanInt('VCII')
